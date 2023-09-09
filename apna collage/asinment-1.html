@@ -1,0 +1,64 @@
+<!DOCTYPEhtml>
+    <htmllang="en">
+
+        <head>
+            <metacharset="UTF-8" /><metahttp-equiv="X-UA-Compatible"content="IE=edge" /><metaname="viewport"content="width=device-width,initial-scale=1.0" />
+            <title>CSSAssignment</title>
+
+            <style>
+                * {
+                    text-align: center;
+                }
+
+                #mainTopic {
+                    color: blue;
+                }
+
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-style: Georgia;
+                }
+
+                p {
+                    color: white;
+                    background-color: cornflowerblue;
+                }
+                p:nth-child(2n+1) {
+                    color: yellow;
+                    background-color: cornflowerblue;
+                }
+                div button{
+                    background-color: purple;
+                    color: azure;
+                }
+                div button:hover{
+                    background-color: yellow;
+                    color: blue;
+                }
+                h1::first-letter{
+                    color: red;
+                }
+                #yes:checked{
+                    color: darkgreen;
+                }
+            </style>
+        </head>
+
+        <body>
+            <h1 id="mainTopic">CSSPractice</h1>
+            <h3>Let'slearnaboutselector.</h3><!--Paragraph1-->
+            <p>Therearemultipleselectorsincss.</p><!--Paragraph2-->
+            <p>Someofthemincludeclassselector,idselectoretc.</p><!--Paragraph3-->
+            <p>Andwecanalsocombinethesetoo.</p>
+            <div>
+                <h5>Didyoulikethepracticeset?</h5>
+                <inputtype="checkbox"id="yes" />
+                <labelfor="yes">Yes</label><br /><button>Learnnext!</button>
+            </div>
+        </body>
+
+        </html>
