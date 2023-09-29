@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int a, b, c;
+    a = "both";
+    b = "math";
+    c = "sci";
+    int exam;
+    printf("Witch Exam You Passed\n");
+    printf ("(1) maths and science\n (2) maths\n (3) science\n (4) Nothing\n");
+    scanf("%d", &exam);
+    
+    if(exam == 1){
+        printf("Congratulations you passed Maths and science both,\n Your revored is 45 rupees");
+    }
+    else if(exam == 2){
+        printf("Congratulations you passed Maths,\n Your revored is 15 rupees");
+    }
+    else if(exam == 3){
+        printf("Congratulations you passed science,\n Your revored is 15 rupees");
+    }
+    else{
+        printf("Batter luch for next time!");
+    }
+    return 0;
+}
