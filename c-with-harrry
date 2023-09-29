@@ -25,3 +25,45 @@ int main()
     }
     return 0;
 }
+
+-------------------------------------------------------------------------
+
+
+#include <stdio.h>
+
+int main()
+{ 
+    int age, marks;
+    printf("Enter your age\n");
+    scanf("%d", &age);
+    scanf("%d", marks);
+
+    switch (age)
+    {
+    case 3:
+        printf("Your age is 3");
+        switch (marks)
+        {
+        case 90:
+            printf("Your marks is 90");
+            break;
+        
+        default:
+            printf("Your marks is not 90");
+            break;
+        }
+        break;
+    case 23:
+        printf("Your age is 23");
+        break;
+    case 33:
+        printf("Your age is 33");
+        break;
+    
+    default:
+        printf("Invalid Age!");
+        break;
+    }
+    
+    return 0;
+}
