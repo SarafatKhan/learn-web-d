@@ -153,3 +153,26 @@ int main()
     return 0;
 }
 
+---------------------------------
+
+#include <stdio.h>
+
+int main() 
+{
+    printf("Hello Word\n");
+    int i, age;
+    for ( i = 0; i < 10; i++)
+    {
+        printf("%d\n Enter your age\n", i);
+        scanf("%d", &age);
+        if (age>10)
+        {
+            continue;;
+        }
+
+        printf("this will show if the age is less than 10 and is if age is greater than 10 then the loop will skip this code and loop will be continued");
+        
+    }
+    
+    return 0;
+}
