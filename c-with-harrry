@@ -102,3 +102,19 @@ int main()
     }
     return 0;
 }
+-------------------------------------------
+
+
+#include <stdio.h>
+
+int main() 
+{
+    printf("Hello Word\n");
+    int i;
+    for ( i = 0; i < 10; i++)
+    {
+        printf("%d\n", i);
+    }
+    
+    return 0;
+}
