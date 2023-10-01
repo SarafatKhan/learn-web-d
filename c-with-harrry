@@ -193,3 +193,21 @@ int main()
     printf("%d", c);
     return 0;
 }
+------------------------------------
+
+#include <stdio.h>
+void printstr(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("%c", '*');
+    }
+    
+}
+int main() 
+{
+    
+    printstr(6);
+    return 0;
+}
+
